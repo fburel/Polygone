@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0C5A4F7B1BB13B0A0088BFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A4F7A1BB13B0A0088BFD6 /* AppDelegate.swift */; };
-		0C5A4F7D1BB13B0A0088BFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A4F7C1BB13B0A0088BFD6 /* ViewController.swift */; };
 		0C5A4F801BB13B0A0088BFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A4F7E1BB13B0A0088BFD6 /* Main.storyboard */; };
 		0C5A4F821BB13B0A0088BFD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A4F811BB13B0A0088BFD6 /* Images.xcassets */; };
 		0C5A4F851BB13B0A0088BFD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A4F831BB13B0A0088BFD6 /* LaunchScreen.xib */; };
 		0C5A4F911BB13B0A0088BFD6 /* PolygoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A4F901BB13B0A0088BFD6 /* PolygoneTests.swift */; };
+		0C5A4F9B1BB13CAB0088BFD6 /* PolygoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A4F9A1BB13CAB0088BFD6 /* PolygoneViewController.swift */; };
+		0C5A4F9D1BB14C8F0088BFD6 /* Polygone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A4F9C1BB14C8F0088BFD6 /* Polygone.swift */; };
+		0CFA448D1BB17BE8009FCD37 /* PolygneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFA448C1BB17BE8009FCD37 /* PolygneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		0C5A4F751BB13B0A0088BFD6 /* Polygone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polygone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5A4F791BB13B0A0088BFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C5A4F7A1BB13B0A0088BFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C5A4F7C1BB13B0A0088BFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C5A4F7F1BB13B0A0088BFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C5A4F811BB13B0A0088BFD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C5A4F841BB13B0A0088BFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0C5A4F8A1BB13B0A0088BFD6 /* PolygoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolygoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5A4F8F1BB13B0A0088BFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C5A4F901BB13B0A0088BFD6 /* PolygoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygoneTests.swift; sourceTree = "<group>"; };
+		0C5A4F9A1BB13CAB0088BFD6 /* PolygoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygoneViewController.swift; sourceTree = "<group>"; };
+		0C5A4F9C1BB14C8F0088BFD6 /* Polygone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygone.swift; sourceTree = "<group>"; };
+		0CFA448C1BB17BE8009FCD37 /* PolygneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				0C5A4F7A1BB13B0A0088BFD6 /* AppDelegate.swift */,
-				0C5A4F7C1BB13B0A0088BFD6 /* ViewController.swift */,
 				0C5A4F7E1BB13B0A0088BFD6 /* Main.storyboard */,
 				0C5A4F811BB13B0A0088BFD6 /* Images.xcassets */,
 				0C5A4F831BB13B0A0088BFD6 /* LaunchScreen.xib */,
 				0C5A4F781BB13B0A0088BFD6 /* Supporting Files */,
+				0C5A4F9A1BB13CAB0088BFD6 /* PolygoneViewController.swift */,
+				0C5A4F9C1BB14C8F0088BFD6 /* Polygone.swift */,
+				0CFA448C1BB17BE8009FCD37 /* PolygneView.swift */,
 			);
 			path = Polygone;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					0C5A4F741BB13B0A0088BFD6 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 68APJ54Y46;
 					};
 					0C5A4F891BB13B0A0088BFD6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5A4F7D1BB13B0A0088BFD6 /* ViewController.swift in Sources */,
 				0C5A4F7B1BB13B0A0088BFD6 /* AppDelegate.swift in Sources */,
+				0CFA448D1BB17BE8009FCD37 /* PolygneView.swift in Sources */,
+				0C5A4F9B1BB13CAB0088BFD6 /* PolygoneViewController.swift in Sources */,
+				0C5A4F9D1BB14C8F0088BFD6 /* Polygone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Polygone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Polygone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +422,7 @@
 				0C5A4F961BB13B0A0088BFD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C5A4F971BB13B0A0088BFD6 /* Build configuration list for PBXNativeTarget "PolygoneTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +431,7 @@
 				0C5A4F991BB13B0A0088BFD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
